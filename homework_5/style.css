@@ -1,15 +1,47 @@
+@font-face {
+  font-family: "Formular";
+  src: url("fonts/Formular-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+ }
+
+@font-face {
+  font-family: "Formular";
+  src: url("fonts/Formular-Bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+ @font-face {
+   font-family: "Formular";
+   src: url("fonts/Formular-Medium.otf") format("truetype");
+   font-style: normal;
+   font-weight:  500;
+  }
+
 .header {
   padding-top: 24px;
+}
+
+.header a.header-link {
+  text-decoration: none;
 }
 
 .header-link {
   display: block;
   margin-top: 13px;
+  font-family: Formular;
   font-size: 28px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   color:#4b721d;
+  text-decoration: none;
+}
+
+.header-link:visited {
+  color: #4b721d;
+  text-decoration: none;
 }
 
 .header-link:hover {
@@ -17,19 +49,44 @@
   text-decoration: none;
 }
 
+.header-link:active {
+  color: #4b721d;
+  text-decoration: none;
+}
+
+.header-logo {
+  width: 204px;
+  height: 60px;
+}
+
 .main {
   padding-top: 36px;
 }
 
 .title {
+  font-family: Formular;
   font-size: 32px;
   font-weight: 500;
   color: #4b721d;
 }
 
-.title:hover {
+.main a.title {
   text-decoration: none;
+}
+
+.title:visited {
+  color: #4b721d;
+  text-decoration: none;
+}
+
+.title:hover {
   color: #80bb3d;
+  text-decoration: none;
+}
+
+.title:active {
+  color: #4b721d;
+  text-decoration: none;
 }
 
 .main-panel {
@@ -58,11 +115,25 @@
   margin-left: 29px;
   margin-bottom: 10px;
   display: block;
+  font-family: Formular;
+  line-height: normal;
   font-size: 21px;
   color: #515151;
 }
 
+.main a.product-name {
+  text-decoration: none;
+}
+
 .product-name:hover {
+  text-decoration: none;
+}
+
+.product-name:visited {
+  text-decoration: none;
+}
+
+.product-name:active {
   text-decoration: none;
 }
 
@@ -80,6 +151,7 @@
   font-weight: bold;
   color: #9d9d9d;
   text-decoration: line-through;
+  font-family: Formular;
 }
 
 .product-card-price-new {
@@ -88,6 +160,7 @@
   font-size: 28px;
   font-weight: bold;
   color: #4b721d;
+  font-family: Formular;
 }
 
 .product-card-price-new b {
@@ -143,6 +216,7 @@
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
+  font-family: Formular;
   font-size: 42px;
   font-weight: bold;
   color: #fff;
@@ -153,31 +227,11 @@
   margin-top: 85px;
 }
 
-.footer-contacts {
-  display: flex;
-  flex-direction: row;
+.footer-info-container {
   height: 309px;
-  padding: 36px 128px 36px 125px;
   background-color: #f4f4f4;
-}
-
-.footer-contact-info {
-  width: 457px;
-  margin-top: 0px;
-  margin-right: 33px;
-  font-size: 21px;
-  color: #666;
-}
-
-.footer-contact-info-text {
-  margin-top: 0px;
-  font-size: 21px;
-  font-weight: normal;
-  color: #666;
-}
-
-.footer-contact-info-text b {
-  font-weight: 500;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
 .footer-logo {
@@ -185,13 +239,29 @@
   height: 57px;
 }
 
+.footer-contact-text {
+  font-family: Formular;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: normal;
+  color: #666;
+  margin-top: 0px;
+  margin-bottom: 23px;
+}
+
+.footer-contact-text b {
+  font-weight: 500;
+  line-height: normal;
+    margin-bottom: 20px;
+}
+
 .footer-text {
-  margin-left: 125px;
-  margin-right: 130px;
-  margin-bottom: 21px;
   font-size: 16px;
+  line-height: normal;
   text-align:center;
   color: #c3c3c3;
+  font-family: Formular;
+  font-weight: normal;
 }
 
 .row {
