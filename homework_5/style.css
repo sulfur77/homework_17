@@ -26,7 +26,7 @@
 .header-link {
   display: block;
   margin-top: 13px;
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   font-size: 28px;
   font-weight: bold;
   text-align: center;
@@ -64,7 +64,7 @@
 }
 
 .title {
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   font-size: 32px;
   font-weight: 500;
   color: #4b721d;
@@ -115,7 +115,7 @@
   margin-left: 29px;
   margin-bottom: 10px;
   display: block;
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   line-height: normal;
   font-size: 21px;
   color: #515151;
@@ -151,7 +151,7 @@
   font-weight: bold;
   color: #9d9d9d;
   text-decoration: line-through;
-  font-family: Formular;
+  font-family: Formular, sans-serif;
 }
 
 .product-card-price-new {
@@ -160,7 +160,7 @@
   font-size: 28px;
   font-weight: bold;
   color: #4b721d;
-  font-family: Formular;
+  font-family: Formular, sans-serif;
 }
 
 .product-card-price-new b {
@@ -216,7 +216,7 @@
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   font-size: 42px;
   font-weight: bold;
   color: #fff;
@@ -238,7 +238,7 @@
 }
 
 .footer-contact-text {
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   font-weight: normal;
   font-size: 21px;
   line-height: normal;
@@ -254,7 +254,7 @@
  }
 
 .footer-contact-telephone-number  {
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   font-size: 21px;
   line-height: normal;
   color: #666;
@@ -267,9 +267,9 @@
   margin-top: 0px;
   font-size: 16px;
   line-height: normal;
-  text-align:center;
+  text-align: center;
   color: #c3c3c3;
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   font-weight: normal;
 }
 
