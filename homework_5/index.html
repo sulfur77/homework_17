@@ -5,13 +5,13 @@
   <title>Азбука вкуса</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="docs/bootstrap.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normal..">
+  <link rel="stylesheet" href="docs/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
+  <header class="header">
+    <div class="container">
       <div class="row">
         <div class="col-xs-4">
           <img class="header-logo" src="images/logo.svg">
@@ -26,8 +26,10 @@
           <a href="#" class="header-link">Контакты</a>
         </div>
       </div>
-    </header>
-    <main class="main">
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
       <div class="row">
         <div class="col-xs-8">
           <a href="#">
@@ -40,7 +42,7 @@
           </a>
         </div>
       </div>
-      <a  href="#" class="title">Вкусные цены</a>
+      <a href="#" class="title">Вкусные цены</a>
       <div class="row">
         <div class="col-xs-3">
           <div class="product-card">
@@ -67,7 +69,7 @@
         <div class="col-xs-3">
           <div class="product-card">
             <img class="product-card-image" src="images/bp-3.jpg">
-            <a href="#" class="product-name">Томаты<br>&nbsp;«На ветке»</a>
+            <a href="#" class="product-name">Томаты «На ветке»</a>
             <div class="product-card-price">
               <p class="product-card-price-old">.85</p>
               <p class="product-card-price-new">-.65<b>.00</b>
@@ -78,7 +80,7 @@
         <div class="col-xs-3">
           <div class="product-card">
             <img class="product-card-image" src="images/bp-4.jpg">
-            <a href="#" class="product-name">Сыр<br>&nbsp;«Вьё Булонь»</a>
+            <a href="#" class="product-name">Сыр «Вьё Булонь»</a>
             <div class="product-card-price">
               <p class="product-card-price-old">.480</p>
               <p class="product-card-price-new">-.420<b>.50</b>
@@ -87,7 +89,7 @@
           </div>
         </div>
       </div>
-      <a  href="#" class="title">Вкусные идеи</a>
+      <a href="#" class="title">Вкусные идеи</a>
       <div class="row">
         <div class="col-xs-6">
           <div class="category-panel-1">
@@ -99,7 +101,7 @@
         <div class="col-xs-6">
           <div class="category-panel-2">
             <a href="#">
-              <p class="category-panel-title">Легкие&nbsp;десерты</p>
+              <p class="category-panel-title">Легкие десерты</p>
             </a>
           </div>
         </div>
@@ -113,39 +115,36 @@
           </div>
         </div>
       </div>
-    </main>
-  </div>
+    </div>
+  </main>
   <footer class="footer">
-    <div class="footer-info-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-1">
-          </div>
-          <div class="col-xs-5">
-            <p class="footer-contact-text"><b>Интернет-магазин:</b> прием заказа по <br>телефону<br>
-            (с 9:00 до 21:00), вопросы организации
-            доставки (круглосуточно)</p>
-            <p class="footer-contact-text"><b>+7 (495) 223-02-00</b></p>
-            <img class="footer-logo" src="images\logo-f.svg">
-          </div>
-          <div class="col-xs-5">
-            <p class="footer-contact-text">По вопросам и замечаниям на качество<br>
-            обращайтесь в Службу клиентской<br> поддержки<br>
-            с 9:00 до 21:00 ежедневно</p>
-            <p class="footer-contact-text"><b>+7 (495) 504-34-78</br>
-            8 (800) 700-34-87</b></p>
-            <p class="footer-contact-text">Офис с 9:00 до 18:00 по будням
-            </p>
-          </div>
-          <div class="col-xs-1">
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5 col-xs-offset-1">
+          <p class="footer-contact-text"><b>Интернет-магазин:</b> прием заказа по телефону (с 9:00 до 21:00), вопросы организации доставки (круглосуточно)</p>
+          <p></p>
+          <p class="footer-contact-text"><b>+7 (495) 223-02-00</b>
+          </p>
+          <img class="footer-logo" src="images\logo-f.svg">
+        </div>
+        <div class="col-xs-5">
+          <p class="footer-contact-text">По вопросам и замечаниям на качество обращайтесь в Службу клиентской поддержки с 9:00 до 21:00 ежедневно</p>
+          <p></p>
+          <p class="footer-contact-telephone-number">+7 (495) 504-34-78</p>
+          <p class="footer-contact-text"><b>8 (800) 700-34-87</b>
+          </p>
+          <p class="footer-contact-text">Офис с 9:00 до 18:00 по будням
+          </p>
         </div>
       </div>
-    </div>
-    <div class="footer-text">
-      <p>2017, Азбука Вкуса Все права защищены. Условия и соглашения Интернет-магазин продуктов Азбука Вкуса: продукты
-        <br>питания, хозтовары, сопутствующие товары. Доставка продуктов осуществляется в пределах Москвы и Московской
-        <br>области</p>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <p class="footer-text">2017, Азбука Вкуса Все права защищены. Условия и соглашения Интернет-магазин продуктов Азбука Вкуса:
+            продукты питания, хозтовары, сопутствующие товары. Доставка продуктов осуществляется в пределах Москвы
+            и Московской области
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
 </body>

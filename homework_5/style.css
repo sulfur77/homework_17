@@ -3,7 +3,7 @@
   src: url("fonts/Formular-Regular.otf") format("truetype");
   font-style: normal;
   font-weight: normal;
- }
+}
 
 @font-face {
   font-family: "Formular";
@@ -21,10 +21,6 @@
 
 .header {
   padding-top: 24px;
-}
-
-.header a.header-link {
-  text-decoration: none;
 }
 
 .header-link {
@@ -49,6 +45,10 @@
   text-decoration: none;
 }
 
+.header-link:focus {
+  text-decoration: none;
+}
+
 .header-link:active {
   color: #4b721d;
   text-decoration: none;
@@ -70,10 +70,6 @@
   color: #4b721d;
 }
 
-.main a.title {
-  text-decoration: none;
-}
-
 .title:visited {
   color: #4b721d;
   text-decoration: none;
@@ -81,6 +77,10 @@
 
 .title:hover {
   color: #80bb3d;
+  text-decoration: none;
+}
+
+.title:focus {
   text-decoration: none;
 }
 
@@ -121,15 +121,15 @@
   color: #515151;
 }
 
-.main a.product-name {
-  text-decoration: none;
-}
-
 .product-name:hover {
   text-decoration: none;
 }
 
 .product-name:visited {
+  text-decoration: none;
+}
+
+.product-name:focus {
   text-decoration: none;
 }
 
@@ -225,9 +225,6 @@
 
 .footer {
   margin-top: 85px;
-}
-
-.footer-info-container {
   height: 309px;
   background-color: #f4f4f4;
   padding-top: 36px;
@@ -237,6 +234,7 @@
 .footer-logo {
   width: 192px;
   height: 57px;
+  margin-bottom: 55px;
 }
 
 .footer-contact-text {
@@ -252,10 +250,21 @@
 .footer-contact-text b {
   font-weight: 500;
   line-height: normal;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+ }
+
+.footer-contact-telephone-number  {
+  font-family: Formular;
+  font-size: 21px;
+  line-height: normal;
+  color: #666;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .footer-text {
+  margin-top: 0px;
   font-size: 16px;
   line-height: normal;
   text-align:center;
