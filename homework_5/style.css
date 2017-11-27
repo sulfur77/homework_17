@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "Formular";
+  src: url("fonts/Formular-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("fonts/Formular-Bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+   font-family: "Formular";
+   src: url("fonts/Formular-Medium.otf") format("truetype");
+   font-style: normal;
+   font-weight:  500;
+}
+
+.header {
+  padding-top: 24px;
+}
+
+.header-link {
+  display: block;
+  margin-top: 13px;
+  font-family: Formular, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color:#4b721d;
+  text-decoration: none;
+}
+
+.header-link:visited {
+  color: #4b721d;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: #80bb3d;
+  text-decoration: none;
+}
+
+.header-link:focus {
+  text-decoration: none;
+}
+
+.header-link:active {
+  color: #4b721d;
+  text-decoration: none;
+}
+
+.header-logo {
+  width: 204px;
+  height: 60px;
+}
+
+.main {
+  padding-top: 36px;
+}
+
+.title {
+  font-family: Formular, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #4b721d;
+}
+
+.title:visited {
+  color: #4b721d;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #80bb3d;
+  text-decoration: none;
+}
+
+.title:focus {
+  text-decoration: none;
+}
+
+.title:active {
+  color: #4b721d;
+  text-decoration: none;
+}
+
+.main-panel {
+  margin-bottom: 57px;
+  border-radius: 2px;
+  background-color: #fefefe;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-bottom: 55px;
+  padding-bottom: 24px;
+  height: 100%;
+  background-color: #fefefe;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+
+.product-card-image {
+  height: 263px;
+  width: 263px;
+}
+
+.product-name {
+  margin-left: 29px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: Formular, sans-serif;
+  line-height: normal;
+  font-size: 21px;
+  color: #515151;
+}
+
+.product-name:hover {
+  text-decoration: none;
+}
+
+.product-name:visited {
+  text-decoration: none;
+}
+
+.product-name:focus {
+  text-decoration: none;
+}
+
+.product-name:active {
+  text-decoration: none;
+}
+
+.product-card-price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.product-card-price-old {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #9d9d9d;
+  text-decoration: line-through;
+  font-family: Formular, sans-serif;
+}
+
+.product-card-price-new {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #4b721d;
+  font-family: Formular, sans-serif;
+}
+
+.product-card-price-new b {
+  font-size: 21px;
+  font-weight: normal;
+  color: #4b721d;
+}
+
+.category-panel-1 {
+  position: relative;
+  width: 100%;
+  height: 302px;
+  margin-top: 21px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+  background: linear-gradient(
+      rgba(46, 46, 46, 0.21),
+      rgba(46, 46, 46, 0.21)
+    ),
+    url('images/cp-1.jpg');
+}
+
+.category-panel-2 {
+  position: relative;
+  width: 100%;
+  height: 302px;
+  margin-top: 21px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+  background-image: url('images/cp-2.jpg');
+}
+
+.category-panel-3 {
+  position: relative;
+  width: 100%;
+  height: 364px;
+  margin-top: 30px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+  background: linear-gradient(
+      rgba(46, 46, 46, 0.21),
+      rgba(46, 46, 46, 0.21)
+    ),
+    url('images/cp-3.jpg');
+}
+
+.category-panel-3 p {
+  text-transform: uppercase;
+}
+
+.category-panel-title {
+  position: absolute;
+  display: block;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: Formular, sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  margin-top: 85px;
+  margin-bottom: 0;
+  background-color: #f4f4f4;
+  padding-top: 36px;
+  padding-bottom: 13px;
+  font-family: Formular, sans-serif;
+  line-height: normal;
+  color: #666;
+}
+
+.footer-logo {
+  width: 192px;
+  height: 57px;
+}
+
+.footer-contact-text {
+  font-weight: normal;
+  font-size: 21px;
+  margin-top: 0px;
+  margin-bottom: 23px;
+}
+
+.footer-contact-text b {
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+ }
+
+.footer-contact-telephone-number  {
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.copyright-text {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  color: #c3c3c3;
+  font-family: Formular, sans-serif;
+  font-weight: normal;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
