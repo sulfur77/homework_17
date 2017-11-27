@@ -12,12 +12,12 @@
   font-weight: bold;
 }
 
- @font-face {
+@font-face {
    font-family: "Formular";
    src: url("fonts/Formular-Medium.otf") format("truetype");
    font-style: normal;
    font-weight:  500;
-  }
+}
 
 .header {
   padding-top: 24px;
@@ -97,6 +97,9 @@
 }
 
 .product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-top: 21px;
   margin-bottom: 55px;
   padding-bottom: 24px;
@@ -111,7 +114,6 @@
 }
 
 .product-name {
-  height: 52px;
   margin-left: 29px;
   margin-bottom: 10px;
   display: block;
@@ -225,24 +227,23 @@
 
 .footer {
   margin-top: 85px;
-  height: 309px;
+  margin-bottom: 0;
   background-color: #f4f4f4;
   padding-top: 36px;
-  padding-bottom: 36px;
+  padding-bottom: 13px;
+  font-family: Formular, sans-serif;
+  line-height: normal;
+  color: #666;
 }
 
 .footer-logo {
   width: 192px;
   height: 57px;
-  margin-bottom: 55px;
 }
 
 .footer-contact-text {
-  font-family: Formular, sans-serif;
   font-weight: normal;
   font-size: 21px;
-  line-height: normal;
-  color: #666;
   margin-top: 0px;
   margin-bottom: 23px;
 }
@@ -254,17 +255,14 @@
  }
 
 .footer-contact-telephone-number  {
-  font-family: Formular, sans-serif;
   font-size: 21px;
-  line-height: normal;
-  color: #666;
   font-weight: 500;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.footer-text {
-  margin-top: 0px;
+.copyright-text {
+  margin-top: 15px;
   font-size: 16px;
   line-height: normal;
   text-align: center;
